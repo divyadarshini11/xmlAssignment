@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body{
+            background-color: wheat;
+        }
+        h1{
+            color: darkblue;
+            text-decoration: underline ;
+            text-decoration-color: red;
+            text-align: center;  
+            font-size: 50px;
+        }
+        h2{
+          color:darkgreen;  
+          text-decoration: underline
+        }
+    </style>
+    <h1> GROCERY INDIA</h1>
+    <h2>Items Billed</h2>
+    <h4 id = "demo"></h4>
+    <script>
+        var x = "";
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if(this.readyState == 4 && this.status == 200){
+                var myObj = JSON.parse(this.responseText);
+                for( i in myObj.items)
+                {
+                    x+=myObj.items[i].name + "<br>"; 
+                    x+=myObj.items[i].price + "<br>";
+                    x+=myObj.items[i].quantity + "<br>";
+                    x+=myObj.items[i].total + "<br><br>";
+                }
+                document.getElementById("demo").innerHTML = x;
+            }
+        };
+            xmlhttp.open("GET","Grocery.txt", true);
+            xmlhttp.send();
+    </script>
+</html>

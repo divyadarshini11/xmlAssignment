@@ -1,0 +1,36 @@
+{
+    "billing": {
+      "items": [
+        {
+          "name": "Thoor Dal",
+          "price": "₹ 100 ",
+          "quantity": "2 Kg",
+          "total": "₹ 200/-"
+        },
+        {
+            "name": "Bread Packet",
+            "price": "₹ 34 ",
+            "quantity": "2 Packet",
+            "total": "₹ 68/-"
+          },
+          {
+            "name": "Milk",
+            "price": "₹ 25 ",
+            "quantity": "4 packet",
+            "total": "₹ 100/-"
+          },
+          {
+            "name": "Basmati Rice",
+            "price": "₹ 70 ",
+            "quantity": "5 Kg",
+            "total": "₹ 350/-"
+          },
+          {
+            "name": "Atta",
+            "price": "₹ 54 ",
+            "quantity": "10 Kg",
+            "total": "₹ 540/-"
+          }
+      ]
+    }
+  }

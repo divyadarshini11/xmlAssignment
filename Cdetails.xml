@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Cdetails.xsl" type="text/xsl" ?>
+<Cdetails>
+<customer>
+<id>CD100</id>
+<name>Haritha Ravi</name>
+<phno>9876402345</phno>
+<email>harithar1907@gmail.com</email>
+<bill>₹ 1450/-</bill>
+</customer>
+
+<customer>
+<id>CD200</id>
+<name>Ashwin S</name>
+<phno>8851402340</phno>
+<email>ashwin.r@gmail.com</email>
+<bill>₹ 950/-</bill>
+</customer>
+
+<customer>
+<id>CD300</id>
+<name>Aravind R</name>
+<phno>7806401340</phno>
+<email>aravind811@gmail.com</email>
+<bill>₹ 560/-</bill>
+</customer>
+
+<customer>
+<id>CD400</id>
+<name>Divyadarshini</name>
+<phno>8667762903</phno>
+<email>divyamadhavan11@gmail.com</email>
+<bill>₹ 1790/-</bill>
+</customer>
+
+<customer>
+<id>CD500</id>
+<name>Jeyalakshmi J</name>
+<phno>8144309510</phno>
+<email>jeyalakshmi.j@gmail.com</email>
+<bill>₹ 5600/-</bill>
+</customer>
+
+</Cdetails>

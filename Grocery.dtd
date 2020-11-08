@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT billing (items+)>
+<!ELEMENT bank (name,price,quantity,total)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT total (#PCDATA)>

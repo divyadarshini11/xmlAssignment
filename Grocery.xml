@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Grocery.xsl" type="text/xsl" ?>
+<billing>
+<items>
+<name>Thoor Dal</name>
+<price>₹ 100 </price>
+<quantity>2 Kg</quantity>
+<Total>₹ 200/-</Total>
+</items>
+
+<items>
+<name>Bread Packet</name>
+<price>₹ 34 </price>
+<quantity>2 Packet</quantity>
+<Total>₹ 86/-</Total>
+</items>
+
+<items>
+<name>Milk</name>
+<price>₹ 25 </price>
+<quantity>4 packet</quantity>
+<Total>₹ 100/-</Total>
+</items>
+
+<items>
+<name>"Basmati Rice"</name>
+<price>₹ 70 </price>
+<quantity>5 Kg</quantity>
+<Total>₹ 350/-</Total>
+</items>
+
+<items>
+<name>Atta</name>
+<price>₹ 54 </price>
+<quantity>10 Kg</quantity>
+<Total>₹ 540</Total>
+</items>
+
+</billing>

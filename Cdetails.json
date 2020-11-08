@@ -1,0 +1,41 @@
+{
+    "Cdetails": {
+      "customer": [
+        {
+          "id": "CD100",
+          "name": "Haritha Ravi",
+          "phno": "9876402345",
+          "email": "harithar1907@gmail.com",
+          "bill": "₹ 1450/-"
+        },
+        {
+            "id": "CD200",
+            "name": "Ashwin S",
+            "phno": "8851402340",
+            "email": "ashwin.r@gmail.com",
+            "bill": "₹ 950/-"
+        },
+        {
+            "id": "CD300",
+            "name": "Aravind R",
+            "phno": "7806401340",
+            "email": "aravind811@gmail.com",
+            "bill": "₹ 560/-"
+        },
+        {
+            "id": "CD400",
+            "name": "Divyadarshini",
+            "phno": "8667762903",
+            "email": "divyamadhavan11@gmail.com",
+            "bill": "₹ 1790/-"
+        },
+        {
+            "id": "CD500",
+            "name": "Jeyalakshmi J",
+            "phno": "8144309510",
+            "email": "jeyalakshmi.j@gmail.com",
+            "bill": "₹ 5600/-"
+        }
+      ]
+    }
+  }
